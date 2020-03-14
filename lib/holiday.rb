@@ -45,6 +45,7 @@ def add_supply_to_memorial_day(holiday_hash, supply)
       end
     end
   end
+  holiday_hash[:spring][:memorial_day] << "Table Cloth"
   # holiday_hash.each do |season, holiday_do_hash|
   #   if season == :spring
   #     holiday_do_hash.each do |holiday, supply|
